@@ -58,29 +58,6 @@ await conn.sendTextWithMentions(m.chat, `${lenguaje['smsWel']()} @${sender.split
 //conn.sendMessage(m.chat, { text : `${lenguaje['smsWel']()} @${sender.split("@")[0]}, este Bot Fue Modificado por russell. Aqui tienes el numero solo por la dudas y problema del bot.\n\n‼️ 𝙽𝚘 𝚑𝚊𝚐𝚊𝚗 𝚜𝚙𝚊𝚖 𝚊 𝚖𝚒 𝚌𝚛𝚎𝚊𝚍𝚘𝚛 𝚘 𝚚𝚞𝚎𝚍𝚊 𝚋𝚕𝚘𝚚𝚞𝚎𝚊𝚍𝚘\n\n${yt}`, mentions: [sender]}, { quoted: a, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 }
 
-if (command == 'infohost' || command == 'host') {
-conn.sendMessage(m.chat, { text: `*¿Tu Nokia es muy lento y necesitas que tu bot esté activo 24/7?* 📱⏳
-
-¡Tenemos la solución perfecta para ti! 🎉 Mantén tu bot funcionando sin interrupciones con nuestros servidores, Ofrecemos servidores gratuitos y de pago a precios súper accesibles, al alcance de todos. 💸 
-
-🖥️ *Totalmente compatible con CortanaBot-MD:* Disfruta al máximo de su potencial en nuestros servidores de alto rendimiento, asegurando una experiencia flu
-contextInfo:{
-forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363301598733462@newsletter', 
-serverMessageId: '', 
-newsletterName: 'Sky-Ultra-Plus ☁️' }, 
-forwardingScore: 9999999,
-isForwarded: true, 
-"externalAdReply": {
-"showAdAttribution": true,
-"containsAutoReply": true,
-title: `🤖 𝐒𝐊𝐘𝐏𝐋𝐔𝐒-𝐇𝐎𝐒𝐓 🤖`,
-body: `¡El plus que necesitas!_`,
-"previewType": "PHOTO",
-thumbnailUrl: 'https://qu.ax/wXciz.jpg', 
-"sourceUrl": nna}}},
-{ quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})}
-
 if (command == 'grupos' || command == 'grupoficiales') {
 //const grupp = Math.floor(Math.random() * 70);
 conn.sendMessage(m.chat, { text: `${wm}
